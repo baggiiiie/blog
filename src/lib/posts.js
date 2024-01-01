@@ -36,11 +36,12 @@ export function getSortedPostsData() {
 		}
 	});
 }
-
 export function getAllPostIds() {
 	const fileNames = fs.readdirSync(postsDirectory);
+
 	return fileNames.map((fileName) => {
 		return {
+			// the returned value must be array of objects
 			params: {
 				id: fileName.replace(/\.md$/, ""),
 			},

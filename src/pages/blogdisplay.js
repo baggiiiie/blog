@@ -27,7 +27,7 @@ export function BlogPage({ allPostsData }) {
 					{/* individual blog div */}
 
 					{allPostsData.map(({ id, date, title }) => (
-						<Link href={`/posts/${id}`}>
+						<Link href={`/${id}`}>
 							<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
 								<p className="">{title}</p>
 								<p>{date}</p>
