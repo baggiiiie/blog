@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function BlogPage({ allPostsData }) {
+export default function BlogPage({ allPostsData }) {
 	return (
 		// page div
 		<div className="pageBase">
