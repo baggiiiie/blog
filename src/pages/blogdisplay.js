@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export function BlogPage({ allPostsData }) {
@@ -26,19 +25,17 @@ export function BlogPage({ allPostsData }) {
 				{/* content div */}
 				<div className="px-20">
 					{/* individual blog div */}
-					
-					{allPostsData.map(
-						({ id, date, title }) => (
-							<Link href="/blog/blog-1">
-								<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
-									<p className="">{title}</p>
-									<p>{date}</p>
-								</div>
-							</Link>
-						)
-					)}
+
+					{allPostsData.map(({ id, date, title }) => (
+						<Link href={`/posts/${id}`}>
+							<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
+								<p className="">{title}</p>
+								<p>{date}</p>
+							</div>
+						</Link>
+					))}
 				</div>
 			</div>
 		</div>
-	)
+	);
 }
