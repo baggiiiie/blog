@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.pageBase {
+		@apply bg-white
+        text-black
+        text-center;
+	}
+	.blogSheet {
+		@apply w-[70%] max-w-[800px]
+		min-h-[100vh] py-10
+        px-20
+		bg-gray-100 m-auto;
+	}
+	.blogHeader {
+		@apply font-semibold text-2xl pb-2;
+	}
+	.belowHeader {
+		@apply text-sm italic;
+	}
+}

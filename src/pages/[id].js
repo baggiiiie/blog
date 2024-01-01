@@ -22,18 +22,20 @@ export async function getStaticProps({ params }) {
 
 const Post = ({ postData }) => {
 	return (
-		<div>
+		<div className="pageBase">
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
-			<h1>{postData.title}</h1>
-
-			<br />
-			{postData.id}
-			<br />
-			{postData.date}
-			{/* Add your content here */}
-			<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+			<div className="blogSheet">
+				<div className="py-5">
+					<h1 className="blogHeader">{postData.title}</h1>
+					<h2 className="belowHeader">{postData.date}</h2>
+				</div>
+				<div
+					className="text-left"
+					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+				/>
+			</div>
 		</div>
 	);
 };
