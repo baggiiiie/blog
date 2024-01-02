@@ -15,10 +15,10 @@ export default function BlogPage({ allPostsData }) {
 				{allPostsData.map(({ id, date, title }) => (
 					<Link href={`/${id}`} key={id}>
 						<div className="blogListItem">
-							<p>{title}</p>
-							<div className="text-right">
+							<p className="inline-block float-left">{title}</p>
+							<p className="inline-block float-right text-right">
 								{format(parseISO(date), "MMM dd, yyyy")}
-							</div>
+							</p>
 						</div>
 					</Link>
 				))}
