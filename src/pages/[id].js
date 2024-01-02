@@ -27,9 +27,9 @@ const Post = ({ postData }) => {
 				<title>{postData.title}</title>
 			</Head>
 			<div className="blogSheet">
-				<div className="py-5">
-					<h1 className="blogHeader">{postData.title}</h1>
-					<h2 className="belowHeader">{postData.date}</h2>
+				<div className="blogHeader">
+					<h1 className="blogTitle">{postData.title}</h1>
+					<h2 className="belowTitle">{postData.date}</h2>
 				</div>
 				<div
 					className="text-left"

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { format, parseISO } from "date-fns";
 
 export default function BlogPage({ allPostsData }) {
 	return (
@@ -8,9 +9,9 @@ export default function BlogPage({ allPostsData }) {
 			{/* display sheet div */}
 			<div className="blogSheet">
 				{/* header div */}
-				<div className="py-5">
-					<h1 className="blogHeader">My thoughts and gibberish</h1>
-					<h2 className="belowHeader">This is your hackernews style blog</h2>
+				<div className="blogHeader">
+					<h1 className="blogTitle">My thoughts and gibberish</h1>
+					<h2 className="belowTitle">This is your hackernews style blog</h2>
 				</div>
 				{/* content div */}
 				{/* individual blog div */}
@@ -18,8 +19,11 @@ export default function BlogPage({ allPostsData }) {
 				{allPostsData.map(({ id, date, title }) => (
 					<Link href={`/${id}`} key={id}>
 						<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
-							<p className="">{title}</p>
-							<p>{date}</p>
+							<p>{title}</p>
+
+							<div className="text-right">
+								{format(parseISO(date), "MMM dd, yyyy")}
+							</div>
 						</div>
 					</Link>
 				))}
