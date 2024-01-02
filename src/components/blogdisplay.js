@@ -13,18 +13,16 @@ export default function BlogPage({ allPostsData }) {
 					<h2 className="belowHeader">This is your hackernews style blog</h2>
 				</div>
 				{/* content div */}
-				<div className="">
-					{/* individual blog div */}
+				{/* individual blog div */}
 
-					{allPostsData.map(({ id, date, title }) => (
-						<Link href={`/${id}`}>
-							<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
-								<p className="">{title}</p>
-								<p>{date}</p>
-							</div>
-						</Link>
-					))}
-				</div>
+				{allPostsData.map(({ id, date, title }) => (
+					<Link href={`/${id}`} key={id}>
+						<div className="flex justify-between hover:underline hover:bg-blue-100 px-4 hover:cursor-pointer">
+							<p className="">{title}</p>
+							<p>{date}</p>
+						</div>
+					</Link>
+				))}
 			</div>
 		</div>
 	);

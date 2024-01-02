@@ -9,9 +9,11 @@
         text-center;
 	}
 	.blogSheet {
-		@apply w-[70%] max-w-[800px]
+		@apply w-[70%] 
+		max-w-[800px] min-w-[500px]
 		min-h-[100vh] py-10
-        px-20
+    px-20
+		shadow-xl shadow-gray-300
 		bg-gray-100 m-auto;
 	}
 	.blogHeader {
