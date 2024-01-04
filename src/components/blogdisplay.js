@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import BlogHeader from "./blogHeader";
+import ThemeSwitcher from "./ThemSwitcher";
 
 export default function BlogPage({ allPostsData }) {
 	const header = "My thoughts and gibberish";
@@ -10,6 +11,7 @@ export default function BlogPage({ allPostsData }) {
 		// page div
 		<div className="pageBase">
 			<div className="blogSheet">
+				<ThemeSwitcher />
 				<BlogHeader header={header} belowHeader={belowHeader} />
 
 				{allPostsData.map(({ id, date, title }) => (

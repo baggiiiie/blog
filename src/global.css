@@ -16,7 +16,8 @@
 @layer components {
 	.pageBase {
 		@apply bg-white
-    text-black;
+    text-black
+		dark:bg-black;
 	}
 	.blogSheet {
 		@apply w-full
