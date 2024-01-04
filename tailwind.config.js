@@ -20,14 +20,21 @@ module.exports = {
 			typography: {
 				DEFAULT: {
 					css: {
-						'blockquote p:first-of-type::before': false,
-						'blockquote p:first-of-type::after': false,
+						"blockquote p:first-of-type::before": false,
+						"blockquote p:first-of-type::after": false,
+						blockquote: {
+							"font-weight": 300,
+							"background-color": "#e8e8e8",
+							borderLeftColor: "#aaa",
+							color: "#454545",
+						},
+						h3: {
+							color: "#292929",
+						},
 					},
 				},
 			},
 		},
 	},
-	plugins: [
-		require('@tailwindcss/typography'),
-	],
+	plugins: [require("@tailwindcss/typography")],
 };

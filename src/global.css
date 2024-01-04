@@ -4,10 +4,12 @@
 
 @layer base {
 	h1 {
-		@apply font-semibold text-2xl pb-2;
+		@apply font-semibold 
+		text-2xl pb-2 text-[#292929];
 	}
 	h2 {
-		@apply text-sm italic;
+		@apply text-sm 
+		italic text-[#374151];
 	}
 	/* p {
 		

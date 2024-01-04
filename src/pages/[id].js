@@ -32,7 +32,7 @@ const Post = ({ postData }) => {
 					<h2>{postData.date}</h2>
 				</div>
 				<div
-					className="prose prose-quoteless "
+					className="prose"
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 				/>
 			</div>
