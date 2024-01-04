@@ -3,6 +3,7 @@ import { getAllPostIds } from "../lib/posts";
 import { getPostData } from "../lib/posts";
 import Head from "next/head";
 import BlogHeader from "../components/blogHeader";
+import ThemeSwitcher from "../components/ThemSwitcher";
 
 export async function getStaticPaths() {
 	const paths = getAllPostIds();
@@ -34,6 +35,7 @@ const Post = ({ postData }) => {
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 				/>
 			</div>
+			<ThemeSwitcher />
 		</div>
 	);
 };

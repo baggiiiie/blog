@@ -20,7 +20,7 @@ export default function ThemeSwitcher() {
 	return (
 		<button
 			onClick={toggleDarkMode}
-			className="border-gray-300 border rounded-full fixed right-0"
+			className="border-gray-300 border rounded-full fixed right-10 bottom-10"
 		>
 			{darkMode ? "light" : "dark"}
 		</button>
