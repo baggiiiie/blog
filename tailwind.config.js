@@ -16,7 +16,18 @@ module.exports = {
 			lg: "976px",
 			xl: "1440px",
 		},
-		extend: {},
+		extend: {
+			typography: {
+				DEFAULT: {
+					css: {
+						'blockquote p:first-of-type::before': false,
+						'blockquote p:first-of-type::after': false,
+					},
+				},
+			},
+		},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/typography'),
+	],
 };

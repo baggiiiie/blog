@@ -28,11 +28,11 @@ const Post = ({ postData }) => {
 			</Head>
 			<div className="blogSheet">
 				<div className="blogHeader">
-					<h1 className="blogTitle">{postData.title}</h1>
-					<h2 className="belowTitle">{postData.date}</h2>
+					<h1>{postData.title}</h1>
+					<h2>{postData.date}</h2>
 				</div>
 				<div
-					className="text-left leading-relaxed space-y-5"
+					className="prose prose-quoteless "
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 				/>
 			</div>
