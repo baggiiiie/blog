@@ -2,6 +2,7 @@ import React from "react";
 import { getAllPostIds } from "../lib/posts";
 import { getPostData } from "../lib/posts";
 import Head from "next/head";
+import BlogHeader from "../components/blogHeader";
 
 export async function getStaticPaths() {
 	const paths = getAllPostIds();
@@ -27,10 +28,7 @@ const Post = ({ postData }) => {
 				<title>{postData.title}</title>
 			</Head>
 			<div className="blogSheet">
-				<div className="blogHeader">
-					<h1>{postData.title}</h1>
-					<h2>{postData.date}</h2>
-				</div>
+				<BlogHeader header={postData.title} belowHeader={postData.date} />
 				<div
 					className="prose"
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
