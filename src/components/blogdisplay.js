@@ -23,11 +23,11 @@ export default function BlogPage({ allPostsData }) {
 export function BlogItem({ id, title, date }) {
 	return (
 		<Link href={`/${id}`} key={id}>
-			<div className="blogListItem">
-				<h3 className="inline-block float-left">{title}</h3>
-				<h3 className="inline-block float-right text-right">
+			<div className="blogListItem group">
+				<p className="inline-block float-left group-hover:underline">{title}</p>
+				<p className="inline-block float-right text-right group-hover:underline">
 					{format(parseISO(date), "MMM dd, yyyy")}
-				</h3>
+				</p>
 			</div>
 		</Link>
 	);

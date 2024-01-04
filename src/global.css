@@ -11,9 +11,6 @@
 		@apply text-sm 
 		italic text-[#374151];
 	}
-	/* p {
-		
-	} */
 }
 
 @layer components {
