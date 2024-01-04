@@ -2,8 +2,8 @@
 title: "Hello World"
 date: "2023-09-03"
 ---
+*The nerdiest title ever?*
 
-The nerdiest title ever?
 As I thought of this platform and typed the word Medium in Google search box, I realized it’s been years since I last visited this page.
 
 I was just a casual reader, trying to get some better content to read other than some teenager posting on reddit. But at that time, I was too dull to realize the benefits of reading books. Well, of course I knew it’s good to read books, but maybe too immature, or dull, or dumb, or whatever words you might use, to take actions and actually read a book.
