@@ -1,6 +1,6 @@
 ---
 title: "I'm Becoming Boring"
-date: "2023-12-30"
+date: "2024-01-27"
 ---
 Life is thrilling, full of wild experiences, 'cause YOLO, right? All the crazy stupid things you can do, the cool stories you can tell. I mean, life is fun, it's breath-taking-tranquil-scenery kinda fun; it's I-might-have-drank-too-much kinda fun; it's this-edible-ain't-shit kinda fun. 
 
