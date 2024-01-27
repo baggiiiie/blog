@@ -1,6 +1,6 @@
 ---
-title: I'm Becoming Boring
-date: 2023-12-30
+title: "I'm Becoming Boring"
+date: "2023-12-30"
 ---
 Life is thrilling, full of wild experiences, 'cause YOLO, right? All the crazy stupid things you can do, the cool stories you can tell. I mean, life is fun, it's breath-taking-tranquil-scenery kinda fun; it's I-might-have-drank-too-much kinda fun; it's this-edible-ain't-shit kinda fun. 
 
@@ -26,12 +26,9 @@ Anyways, there's always the boring aspect of everything. I used to think, and st
 Also, another new perspective of this from Mark Manson is:
  > When you're pursuing a wide breadth of experience, there are diminishing returns to each new adventure, each new person or thing.
  > ...
-> pursuing a breadth of experience denies us the opportunity to experience the rewards of depth of experience. There are some experiences that you can have only when you've lived in the same place for five years, when you've been with the same person for over a decade, when you've been working on the same skill or craft for half your lifetime.
+ > pursuing a breadth of experience denies us the opportunity to experience the rewards of depth of experience. There are some experiences that you can have only when you've lived in the same place for five years, when you've been with the same person for over a decade, when you've been working on the same skill or craft for half your lifetime.
 
 Tldr: fun only becomes less and less fun; boring, counter-intuitively, becomes more and more fun. Sadly, that's how human brain is wired in the first place, that's how nature works - you're not supposed to have that much fun, when you do, whatever is fun before becomes normal, and eventually, not fun at all.
 
 
 The boring life I'm living right now has more depth to it (at least I would like to think so, ffs imagine if it's not..). Im not just chasing breadth without depth like I used to. Instead of learning guitar for one week and base the next, I would like to have a focus on guitar now. And you know what, I'm learning neither of them, 'cause I need to do the subtraction even more, narrow down to what's already in my life to pursue the depth. Doing the subtraction, though, is hard. Harder than I thought. Becoming a boring person is hard. Saying no to new experiences is hard. But one thing I know for sure, being the version of myself that I hate is hardest of all.
-
- 
-
