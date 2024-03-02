@@ -51,8 +51,9 @@ And I haven't figured out what to do with the time it frees from not using Insta
 
 I'd go on and write about the mental space it frees up, besides time. But currently I'm not able to put it into words just yet, though I do feel the significance. It's a topic that needs to be revisited after more insights have fluxed in, after I have more experience with this digital abstinence.
 
+---
 
-
+<br />
 
 And some random notes:
 As the title suggests, the draft started slightly after Christmas, and now it's March. Through January, I was on a more rigid schedule with social media - only checking it once a week. It's gotten a bit more frequent after mid Feb, as mentioned above, a few times a day, mostly to reply messages, and only after 8pm. Time-wise it has little impact to my schedule, but it really clutters the mind. When I went completely cold turkey in Jan, I didn't even have the thought of checking Instagram after the first few days of withdrawal. But now, from time to time, when it's the break for a 2-hour high intensity work sesh, I'd be feeling like checking Instagram.
