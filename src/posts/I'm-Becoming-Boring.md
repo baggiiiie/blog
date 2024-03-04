@@ -24,8 +24,8 @@ Anyways, there's always the boring aspect of everything. I used to think, and st
 
 
 Also, another new perspective of this from Mark Manson is:
- > When you're pursuing a wide breadth of experience, there are diminishing returns to each new adventure, each new person or thing.
- > ...
+ > When you're pursuing a wide breadth of experience, there are diminishing returns to each new adventure, each new person or thing. <br />
+ > ...  <br />
  > pursuing a breadth of experience denies us the opportunity to experience the rewards of depth of experience. There are some experiences that you can have only when you've lived in the same place for five years, when you've been with the same person for over a decade, when you've been working on the same skill or craft for half your lifetime.
 
 Tldr: fun only becomes less and less fun; boring, counter-intuitively, becomes more and more fun. Sadly, that's how human brain is wired in the first place, that's how nature works - you're not supposed to have that much fun, when you do, whatever is fun before becomes normal, and eventually, not fun at all.
