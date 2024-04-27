@@ -5,7 +5,7 @@ import BlogHeader from "./blogHeader";
 
 export default function BlogPage({ allPostsData }) {
 	const header = "My thoughts and gibberish";
-	const belowHeader = "This is your hackernews style blog";
+	const belowHeader = "and some messy reading notes";
 	return (
 		// page div
 		<div className="pageBase">
