@@ -2,21 +2,24 @@ import React from "react";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import BlogHeader from "./blogHeader";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function BlogPage({ allPostsData }) {
 	const header = "My thoughts and gibberish";
 	const belowHeader = "and some messy reading notes";
 	return (
 		// page div
-		<div className="pageBase">
-			<div className="blogSheet">
-				<BlogHeader header={header} belowHeader={belowHeader} />
+		<Analytics>
+			<div className="pageBase">
+				<div className="blogSheet">
+					<BlogHeader header={header} belowHeader={belowHeader} />
 
-				{allPostsData.map(({ id, date, title }) => (
-					<BlogItem id={id} date={date} title={title} />
-				))}
+					{allPostsData.map(({ id, date, title }) => (
+						<BlogItem id={id} date={date} title={title} />
+					))}
+				</div>
 			</div>
-		</div>
+		</Analytics>
 	);
 }
 
