@@ -9,17 +9,16 @@ export default function BlogPage({ allPostsData }) {
 	const belowHeader = "and some messy reading notes";
 	return (
 		// page div
-		<Analytics>
-			<div className="pageBase">
-				<div className="blogSheet">
-					<BlogHeader header={header} belowHeader={belowHeader} />
+		<div className="pageBase">
+			<div className="blogSheet">
+				<BlogHeader header={header} belowHeader={belowHeader} />
 
-					{allPostsData.map(({ id, date, title }) => (
-						<BlogItem id={id} date={date} title={title} />
-					))}
-				</div>
+				{allPostsData.map(({ id, date, title }) => (
+					<BlogItem id={id} date={date} title={title} />
+				))}
 			</div>
-		</Analytics>
+			<Analytics />
+		</div>
 	);
 }
 
