@@ -46,7 +46,10 @@ const PostButtom = () => {
 				<div>
 					<p>
 						Route your ideas&nbsp;
-						<a href="mailto:yingchao.dai22@gmail.com" className="underline">to my inbox</a>
+						<a
+							href="mailto:yingchao.dai22@gmail.com"
+							className="underline"
+						>to my inbox</a>
 						.
 					</p>
 				</div>

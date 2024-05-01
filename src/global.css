@@ -22,10 +22,10 @@
 		@apply w-full
 		se:w-[70%] 
 		se:max-w-[800px] se:min-w-[500px]
-		min-h-[95vh] my-[2.5vh]
+		se:min-h-[95vh] se:my-[2.5vh]
 		py-10 se:px-20 px-5
 		/* shadow-xl  */
-		shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)]
+		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)]
 		/* shadow-gray-300 */
 		bg-gray-100 m-auto;
 	}
