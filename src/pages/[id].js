@@ -33,9 +33,26 @@ const Post = ({ postData }) => {
 					className="prose"
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 				/>
+				<PostButtom />
 			</div>
 		</div>
 	);
 };
+
+const PostButtom = () => {
+	return (
+		<div>
+			<div className="blogBottom">
+				<div>
+					<p>
+						Route your ideas&nbsp;
+						<a href="mailto:yingchao.dai22@gmail.com" className="underline">to my inbox</a>
+						.
+					</p>
+				</div>
+			</div>
+		</div>
+	)
+}
 
 export default Post;

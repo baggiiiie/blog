@@ -1,6 +1,6 @@
 import React from "react";
 import { getSortedPostsData } from "../lib/posts";
-import BlogPage from "../components/blogdisplay";
+import BlogPage from "../components/blogFrontpage";
 
 export async function getStaticProps() {
 	const allPostsData = await getSortedPostsData();

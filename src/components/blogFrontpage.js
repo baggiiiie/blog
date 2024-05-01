@@ -16,6 +16,7 @@ export default function BlogPage({ allPostsData }) {
 				{allPostsData.map(({ id, date, title }) => (
 					<BlogItem id={id} date={date} title={title} />
 				))}
+
 			</div>
 			<Analytics />
 		</div>
