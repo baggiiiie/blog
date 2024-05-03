@@ -33,6 +33,8 @@ Tldr: fun only becomes less and less fun; boring, counter-intuitively, becomes m
 
 The boring life I'm living right now has more depth to it (at least I would like to think so, ffs imagine if it's not..). Im not just chasing breadth without depth like I used to. Instead of learning guitar for one week and bass the next, I would like to have a focus on guitar now. And you know what, I'm learning neither of them, 'cause I need to do the subtraction even more, narrow down to what's already in my life to pursue the depth. Doing the subtraction, though, is hard. Harder than I thought. Becoming a boring person is hard. Saying no to new experiences is hard. But one thing I know for sure, being the version of myself that I hate is hardest of all.  
 
+<br />
+<br />
 
 **Update on May 3, 24**  
 
