@@ -31,4 +31,14 @@ Also, another new perspective of this from Mark Manson is:
 Tldr: fun only becomes less and less fun; boring, counter-intuitively, becomes more and more fun. Sadly, that's how human brain is wired in the first place, that's how nature works - you're not supposed to have that much fun, when you do, whatever is fun before becomes normal, and eventually, not fun at all.
 
 
-The boring life I'm living right now has more depth to it (at least I would like to think so, ffs imagine if it's not..). Im not just chasing breadth without depth like I used to. Instead of learning guitar for one week and bass the next, I would like to have a focus on guitar now. And you know what, I'm learning neither of them, 'cause I need to do the subtraction even more, narrow down to what's already in my life to pursue the depth. Doing the subtraction, though, is hard. Harder than I thought. Becoming a boring person is hard. Saying no to new experiences is hard. But one thing I know for sure, being the version of myself that I hate is hardest of all.
+The boring life I'm living right now has more depth to it (at least I would like to think so, ffs imagine if it's not..). Im not just chasing breadth without depth like I used to. Instead of learning guitar for one week and bass the next, I would like to have a focus on guitar now. And you know what, I'm learning neither of them, 'cause I need to do the subtraction even more, narrow down to what's already in my life to pursue the depth. Doing the subtraction, though, is hard. Harder than I thought. Becoming a boring person is hard. Saying no to new experiences is hard. But one thing I know for sure, being the version of myself that I hate is hardest of all.  
+
+
+**Update on May 3, 24**
+I have been really enjoying [Henrik Karlsson](https://substack.com/@henrikkarlsson)'s content. He's writing is madness. Relatable and gives me chills.  
+I am revisiting [this post](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), this sentence seems like the exact idea I was trying to convey, but in a way more poetic way. It's to good to not share. I'd just hastily append it here:
+> But for me, as a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels. My life these days is small and boring. **I bicycle across the same fields every day, I notice how the wind turbines turn to face the wind, I rarely travel, and I spend my spare time staring at a text document.** Annie Dillard calls the writer’s life colorless to the point of sensory deprivation. That fits. **But, as she also knows, there is another kind of color that can only be discovered three years down a writing hole. It is a subtle, nightly color; your eyes need time to adjust to the dark before you can see them. You wouldn't believe their beauty if I told you.**  
+
+It's just beautiful. Words are beautiful, and powerful.  
+
+
