@@ -13,9 +13,6 @@ For example, kids who are tall and play basketball. With their height they perfo
 Or,  let's say, work. You start with a bit more advantages than others, be it soft skills or experience, get noticed and assigned more important projects with more visibility, resulting in more exposure and more attention. The process of corporate ladder climbing feels more game-like and even kinda fun. (I have no intention to encourage 内卷 but this definitely somehow sounds like it.)
 On a micro-er scale, the loop applies to habit building. Good habits repeats itself, bad ones too. 
 
-~~This cycle, especially when it comes to habit building - good or bad, consciously or otherwise - dominates our life. When trying to build a good habit, the hardest part is breaking the initial inertia. The first few days are tough, then as the cycle repeats itself, the habit becomes automatic. Eventually, we simply perform without thinking about it - like brushing teeth essentially. The same logic applies to a bad habit. Maybe it's checking social feeds first thing in the morning, maybe it's drinking beers every night. We simply perform without thinking about it. As long as there's no external or internal intervention, the cycle loops. ~~
-
-
 
 ### Awareness
 
@@ -29,7 +26,6 @@ Being stuck in a bad cycle could feel helpless, it feels like we are not even in
 
 Upon gaining that level of awareness, I felt like I just woke up from a psychosis. I look at myself and do not understand the decisions I've made. I stopped fighting against my rational mind that's rationalizing why sleeping 5 more minutes would be a good idea for the moment and even helpful for the day. I became aware enough to ignore the reasonings and [submit to discomfort](getting-up-early).
 
-~~Another mantra that works really well for me is, submit to discomfort, which I wrote about extensively [here](link to GettingUpEarly). Stop fighting against yourself. Give up on trying to persuade yourself into doing something that you know pretty damn well will not benefit you whatsoever. ~~
 
 ### Drifting
 
