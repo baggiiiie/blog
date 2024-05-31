@@ -31,8 +31,8 @@ Upon gaining that level of awareness, I felt like I just woke up from a psychosi
 
 [The devil](https://www.amazon.sg/Outwitting-Devil-Secret-Freedom-Success/dp/1469259036) is constantly going against us. Unfortunately, we don't just get to stay in the positive loop without putting in effort. We will eventually get comfortable being in the loop. Being comfortable isn't any bad on its own, it's the lackadaisical mindset that comes with it is detrimental. In a loop, be it a positive one or a negative one, it's easy to fall into one behavioral pattern and lose the original intention, goal or bigger life vision, and worst of all, lose hope. Despite the fact that we might be the one setting up the positive loop for ourselves after struggles and desperation, we stop thinking about the rationality behind its existence anymore. Without conscious thinking and constant awareness, we might float through life with no real plan or purpose.  
 
-To realize being in the state of drifting is think. Think about why you are doing the same tasks every day, why you are falling in to the same routines every day, simply question yourself "Why am I doing this".  
+To realize being in the state of drifting is think. Think about why you are doing the same tasks every day, why you are falling in to the same routines every day.
 
 When I do think about it, it didn't take long for me to realize, daily Netflix binge to me (and many other things) is not a conscious effort to seek relaxation, it's more of a habitual behavior that I merely perform; daily work to me is not a way to achieve career progressing, it's more of excuse to avoid doing the hard work. To have - or to provoke, rather - this kind of thinking, we have to read, to experience, to explore, to discover, and to reflect what's been the norm for us but shouldn't be.  
 
-
+From time to time, I question, "Why am I doing this".
