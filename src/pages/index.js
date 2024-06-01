@@ -11,16 +11,8 @@ export async function getStaticProps() {
     };
 }
 
-let isBrowser = typeof window !== 'undefined'; // Check if window is defined
 
 export const ThemeContext = createContext(false);
-
-const getInitialTheme = () => {
-    if (!isBrowser) {
-        return false; // Default to light theme during SSR
-    }
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-};
 
 export default function Home({ allPostsData }) {
     const [isDarkTheme, setIsDarkTheme] = useState(null);
@@ -35,10 +27,10 @@ export default function Home({ allPostsData }) {
         setIsDarkTheme(mediaQuery.matches);
 
         // Add listener for changes to the preferred color scheme
-        mediaQuery.addListener(handleChange);
+        mediaQuery.addEventListener("test", handleChange);
 
         // Clean up the event listener on component unmount
-        return () => mediaQuery.removeListener(handleChange);
+        return () => mediaQuery.removeEventListener("test", handleChange);
     }, []);
 
     if (isDarkTheme === null) {

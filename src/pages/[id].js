@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { getAllPostIds } from "../lib/posts";
 import { getPostData } from "../lib/posts";
 import Head from "next/head";
 import BlogHeader from "../components/blogHeader";
+import { themeClassHelper } from "../components/blogFrontpage";
+import { ThemeContext } from ".";
 
 export async function getStaticPaths() {
 	const paths = getAllPostIds();
@@ -22,12 +24,15 @@ export async function getStaticProps({ params }) {
 }
 
 const Post = ({ postData }) => {
+	const theme = useContext(ThemeContext)
+
 	return (
-		<div className="pageBase">
+		<div className={themeClassHelper("pageBase")}>
+			<div>{theme ? "dark" : "light"}</div>
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
-			<div className="blogSheet">
+			<div className={themeClassHelper("blogSheet")}>
 				<BlogHeader header={postData.title} belowHeader={postData.date} />
 				<div
 					className="prose"
