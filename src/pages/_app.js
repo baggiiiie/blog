@@ -1,5 +1,13 @@
+import React from 'react';
+import { ThemeProvider } from '../components/ThemeProvider';
 import '../global.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }) {
+    return (
+        <ThemeProvider>
+            <Component {...pageProps} />
+        </ThemeProvider>
+    );
 }
+
+export default App;

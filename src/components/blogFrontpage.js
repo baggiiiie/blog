@@ -1,16 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import BlogHeader from "./blogHeader";
-import { ThemeContext } from "../pages";
 import { Analytics } from "@vercel/analytics/react";
+import { themeClassHelper } from "./ThemeProvider";
 
-export function themeClassHelper(classname) {
-	const isDarkTheme = useContext(ThemeContext)
-	const className = `${isDarkTheme ? `${classname} ${classname}_night` : `${classname}`}`
-
-	return className
-}
 
 export default function BlogPage({ allPostsData }) {
 	const header = "My thoughts and gibberish";
