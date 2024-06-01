@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, createContext, useContext  } from 'react';
 import { getSortedPostsData } from "../lib/posts";
 import BlogPage from "../components/blogFrontpage";
 
@@ -14,6 +14,9 @@ export async function getStaticProps() {
 }
 
 let isBrowser = typeof window !== 'undefined'; // Check if window is defined
+
+export const ThemeContext = createContext(null);
+
 
 export default function Home({ allPostsData }) {
 	const [isDarkTheme, setIsDarkTheme] = useState(getInitialTheme);
@@ -43,8 +46,9 @@ export default function Home({ allPostsData }) {
 
 	return (
 		<>
-			<p>{isDarkTheme ? "dark" : "light"}</p>
-			<BlogPage allPostsData={allPostsData} isDarkTheme={isDarkTheme} />
+		    <ThemeContext.Provider value={isDarkTheme}>
+				<BlogPage allPostsData={allPostsData} />
+			</ThemeContext.Provider >
 		</>
 	);
 }
