@@ -16,7 +16,19 @@
 @layer components {
 	.pageBase {
 		@apply bg-white
-		text-black;
+		text-black
+		min-h-screen
+		p-1; /* Add padding to parent div to avoic Margin Collapsing */
+	}
+	.pageBase_night {
+		@apply bg-[#1f1f1f]
+		text-white;
+	}
+	.pageBase_night h1 {
+		@apply text-white;
+	}
+	.pageBase_night h2 {
+		@apply text-gray-50;
 	}
 	.blogSheet {
 		@apply w-full
@@ -29,6 +41,10 @@
 		/* shadow-gray-300 */
 		bg-gray-100 m-auto;
 	}
+	.blogSheet_night {
+		@apply bg-[#323232]
+		se:shadow-[0px_0px_2vh_0px_rgba(0,0,0,0.2)];
+	}
 	.blogListItem {
 		@apply relative
 		block
@@ -39,6 +55,9 @@
 		hover:underline hover:bg-blue-100 
 		hover:cursor-pointer
 		px-4 py-3 se:py-1;
+	}
+	.blogListItem_night {
+		@apply hover:bg-[#758db8]
 	}
 	.blogHeader {
 		@apply py-5
