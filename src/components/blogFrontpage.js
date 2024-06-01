@@ -29,7 +29,7 @@ export default function BlogPage({ allPostsData }) {
 export function BlogItem({ id, title, date }) {
 	return (
 		<Link href={`/${id}`} key={id}>
-			<div className={`${themeClassHelper("blogListItem")} group}`} >
+			<div className={`${themeClassHelper("blogListItem")} group`} >
 				<p className="inline-block float-left group-hover:underline">{title}</p>
 				<p className="inline-block float-right text-right group-hover:underline">
 					{format(parseISO(date), "MMM dd, yyyy")}

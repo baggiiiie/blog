@@ -20,16 +20,16 @@
 		min-h-screen
 		p-1; /* Add padding to parent div to avoic Margin Collapsing */
 	}
-	.pageBase-night {
+	.pageBase_night {
 		@apply bg-[#1f1f1f]
 		text-white
 		min-h-screen
 		p-1; /* Add padding to parent div to avoic Margin Collapsing */
 	}
-	.pageBase-night h1 {
+	.pageBase_night h1 {
 		@apply text-white;
 	}
-	.pageBase-night h2 {
+	.pageBase_night h2 {
 		@apply text-gray-50;
 	}
 	.blogSheet {
@@ -37,17 +37,17 @@
 		se:w-[70%] 
 		se:max-w-[800px] se:min-w-[500px]
 		se:min-h-[95vh] se:my-[2.5vh]
-		py-10 se:px-20 px-5
-		bg-gray-100 m-auto
+		py-10 se:px-20 px-5 m-auto
+		bg-gray-100 
 		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)];
 	}
-	.blogSheet-night {
+	.blogSheet_night {
 		@apply w-full
 		se:w-[70%] 
 		se:max-w-[800px] se:min-w-[500px]
 		se:min-h-[95vh] se:my-[2.5vh]
-		py-10 se:px-20 px-5
-		bg-[#323232]
+		py-10 se:px-20 px-5 m-auto
+		bg-[#323232] text-white
 		se:shadow-[0px_0px_2vh_0px_rgba(0,0,0,0.2)];
 	}
 	.blogListItem {
@@ -58,7 +58,7 @@
 		hover:cursor-pointer
 		px-4 py-3 se:py-1;
 	}
-	.blogListItem-night {
+	.blogListItem_night {
 		@apply relative
 		block
 		overflow-hidden

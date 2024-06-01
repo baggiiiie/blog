@@ -25,9 +25,11 @@ export async function getStaticProps({ params }) {
 const Post = ({ postData }) => {
 	return (
 		<div className={themeClassHelper("pageBase")}>
+			<div>{themeClassHelper("pageBase")==="pageBase_night"?"dark":"light"}</div>
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
+			{/* <div className={themeClassHelper("blogSheet")}> */}
 			<div className={themeClassHelper("blogSheet")}>
 				<BlogHeader header={postData.title} belowHeader={postData.date} />
 				<div
