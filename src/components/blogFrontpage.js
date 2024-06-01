@@ -19,7 +19,7 @@ export default function BlogPage({ allPostsData }) {
 				<BlogHeader header={header} belowHeader={belowHeader} />
 
 				{allPostsData.map(({ id, date, title }) => (
-					<BlogItem id={id} date={date} title={title} />
+					<BlogItem id={id} date={date} title={title} key={id}/>
 				))}
 
 			</div>
