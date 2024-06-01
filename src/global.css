@@ -20,14 +20,16 @@
 		min-h-screen
 		p-1; /* Add padding to parent div to avoic Margin Collapsing */
 	}
-	.pageBase_night {
+	.pageBase-night {
 		@apply bg-[#1f1f1f]
-		text-white;
+		text-white
+		min-h-screen
+		p-1; /* Add padding to parent div to avoic Margin Collapsing */
 	}
-	.pageBase_night h1 {
+	.pageBase-night h1 {
 		@apply text-white;
 	}
-	.pageBase_night h2 {
+	.pageBase-night h2 {
 		@apply text-gray-50;
 	}
 	.blogSheet {
@@ -36,28 +38,34 @@
 		se:max-w-[800px] se:min-w-[500px]
 		se:min-h-[95vh] se:my-[2.5vh]
 		py-10 se:px-20 px-5
-		/* shadow-xl  */
-		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)]
-		/* shadow-gray-300 */
-		bg-gray-100 m-auto;
+		bg-gray-100 m-auto
+		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)];
 	}
-	.blogSheet_night {
-		@apply bg-[#323232]
+	.blogSheet-night {
+		@apply w-full
+		se:w-[70%] 
+		se:max-w-[800px] se:min-w-[500px]
+		se:min-h-[95vh] se:my-[2.5vh]
+		py-10 se:px-20 px-5
+		bg-[#323232]
 		se:shadow-[0px_0px_2vh_0px_rgba(0,0,0,0.2)];
 	}
 	.blogListItem {
 		@apply relative
 		block
 		overflow-hidden
-		/* flex 
-		flex-wrap
-		justify-between  */
 		hover:underline hover:bg-blue-100 
 		hover:cursor-pointer
 		px-4 py-3 se:py-1;
 	}
-	.blogListItem_night {
-		@apply hover:bg-[#758db8]
+	.blogListItem-night {
+		@apply relative
+		block
+		overflow-hidden
+		hover:underline hover:bg-[#758db8]
+		hover:cursor-pointer
+		px-4 py-3 se:py-1;
+		
 	}
 	.blogHeader {
 		@apply py-5

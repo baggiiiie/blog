@@ -4,8 +4,9 @@ export const ThemeContext = createContext(false);
 
 export function themeClassHelper(classname) {
 	const isDarkTheme = useContext(ThemeContext)
-	const className = `${isDarkTheme ? `${classname} ${classname}_night` : `${classname}`}`
+	const className = `${isDarkTheme ? `${classname} ${classname}-night` : `${classname}`}`
 
+	// console.log(className)
 	return className
 }
 
