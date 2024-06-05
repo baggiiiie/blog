@@ -1,0 +1,6 @@
+{
+	"liveshare.accessibility.soundsEnabled": false,
+	"accessibility.signals.sounds.volume": 0,
+	"liveshare.accessibility.soundVolume": 0,
+	"editor.accessibilitySupport": "off"
+}
