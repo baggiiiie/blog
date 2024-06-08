@@ -27,9 +27,9 @@ const Post = ({ postData }) => {
 	const isDarkTheme = useContext(ThemeContext)
 	return (
 		<div className="pageBase">
-		<ThemeToggler />
-			<div>from the page: {isDarkTheme ? "True" : "False"}
-			</div>
+			{/* <ThemeToggler /> */}
+			{/* <div>isDarkTheme from useContext on the page: {isDarkTheme ? "True" : "False"}
+			</div> */}
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
@@ -37,7 +37,7 @@ const Post = ({ postData }) => {
 			<div className="blogSheet">
 				<BlogHeader header={postData.title} belowHeader={postData.date} />
 				<div
-					className="prose"
+					className="prose prose-customized dark:prose-invert"
 					dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
 				/>
 				<PostButtom />
