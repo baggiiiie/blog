@@ -1,17 +1,21 @@
-import React from "react";
+// pages/index.js
+import React from 'react';
 import { getSortedPostsData } from "../lib/posts";
 import BlogPage from "../components/blogFrontpage";
 
 export async function getStaticProps() {
-	const allPostsData = await getSortedPostsData();
-	// const data = await allPostsData.json();
-	return {
-		props: {
-			// data,
-			allPostsData,
-		},
-	};
+    const allPostsData = await getSortedPostsData();
+    return {
+        props: {
+            allPostsData,
+        },
+    };
 }
+
 export default function Home({ allPostsData }) {
-	return <BlogPage allPostsData={allPostsData} />;
+    return (
+        <div >
+            <BlogPage allPostsData={allPostsData} />
+        </div>
+    );
 }
