@@ -10,7 +10,7 @@ Sort of like swimming in the ocean. In a positive loop, we swim fast, the moment
 
 This might just apply to all aspects of all.
 For example, kids who are tall and play basketball. With their height they perform well among other kids and get praised for being a natural, which leads to their enjoyment in the sport and more hard practices, which, like a loop, leads to better performance. They enter the positive loop with the help of some genetic advantages, and stay in the loop more effortlessly.
-Or,  let's say, work. You start with a bit more advantages than others, be it soft skills or experience, get noticed and assigned more important projects with more visibility, resulting in more exposure and more attention. The process of corporate ladder climbing feels more game-like and even kinda fun. (I have no intention to encourage 内卷 but this definitely somehow sounds like it.)
+Or,  let's say, work. You start with a bit more advantages than others, be it soft skills or experience, get noticed and assigned more important projects with more visibility, resulting in more exposure and more attention. The process of corporate ladder climbing feels more game-like and even kinda fun. (I have no intention to encourage [*the meaningless competition in the rat race serving the purpose of making the rich richer*](https://www.reddit.com/r/ChineseLanguage/comments/tfdjwd/comment/i0vsg12/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), but this definitely somehow sounds like it.)
 On a micro-er scale, the loop applies to habit building. Good habits repeats itself, bad ones too. 
 
 
