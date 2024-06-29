@@ -56,7 +56,7 @@ const PostButtom = () => {
 						<a
 							href="mailto:yingchao.dai22@gmail.com"
 							className="underline"
-						>to my inbox</a>
+						>here</a>
 						.
 					</p>
 				</div>
