@@ -38,8 +38,8 @@
 		overflow-hidden
 		hover:underline 
 		hover:bg-blue-100 
-		dark:hover:bg-[#e1dfdb]
-		/* dark:hover:bg-[#758db8] */
+		/* dark:hover:bg-[#e1dfdb] */
+		dark:hover:bg-[#758db8]
 		dark:text-pink-dark_words
 		hover:cursor-pointer
 		px-4 py-3 se:py-1;
