@@ -1,15 +1,13 @@
 import Head from "next/head";
-import "../global.css";
 
 export const siteTitle = "baggiiiie";
+const icon = "pics/test.png";
 
 export default function Layout() {
-	return (
-		<div className={styles.container}>
-			<Head>
-				<link rel="icon" href="/sticker.png" />
-				<meta name="og:title" content={siteTitle} />
-			</Head>
-		</div>
-	);
+  return (
+    <Head>
+      <title>{siteTitle}</title>
+      <link rel="icon" href="/sticker.png" />
+    </Head>
+  );
 }
