@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind layer;
 
 @layer base {
+	body {
+		@apply se:bg-white bg-gray-100
+		se:dark:bg-[#3e3e3e] dark:bg-[#323232]
+	}
 	h1 {
 		@apply font-semibold 
 		text-2xl pb-2 text-[#292929]
@@ -25,13 +28,13 @@
 	.pageBase {
 		@apply bg-white dark:bg-[#3e3e3e]
 		min-h-screen
-		p-1; /* Add padding to parent div to avoic Margin Collapsing */
+		se:p-1;
 	}
 	.blogSheet {
-		@apply w-full
-		se:w-[70%] 
+		@apply w-full h-[100vh]
+		se:w-[70%] se:min-h-[90vh]
 		se:max-w-[800px] se:min-w-[500px]
-		se:min-h-[95vh] se:my-[2.5vh]
+		se:max-h-[95vh] se:my-[2.5vh]
 		py-10 se:px-20 px-5 m-auto
 		bg-gray-100 dark:bg-[#323232]
 		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)]
