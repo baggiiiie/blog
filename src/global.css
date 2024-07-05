@@ -14,6 +14,11 @@
 		italic text-[#374151]
 		dark:text-pink-dark_words;
 	}
+	img {
+		@apply w-full
+		my-2
+		rounded-md;
+	}
 }
 
 @layer components {
@@ -56,5 +61,21 @@
 		dark:text-pink-dark_words
 		text-opacity-70
 		text-center;
+	}
+	.imageContainer {
+		@apply 
+		my-2
+		flex flex-col 
+		justify-center items-center;
+	}
+	.imageContainerPicText {
+		@apply text-gray-500
+		text-sm
+		opacity-50;
+	}
+	.imageContainerDescription  {
+		@apply text-gray-500
+		text-lg
+		opacity-100;
 	}
 }
