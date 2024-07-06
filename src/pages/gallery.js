@@ -6,7 +6,11 @@ const alt = "Selection sort has never seemed so fun";
 const description =
   "Selection sort is a simple sorting algorithm that divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.";
 
-const ImageZoom = ({ src, alt }) => {
+const image2 = "pics/we_dance.png";
+const alt2 = "Who doesn't love a good time like this";
+const description2 = "But it ain't gonna be the same";
+
+const ImageZoom = ({ src, alt, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -34,7 +38,7 @@ const ImageZoom = ({ src, alt }) => {
 
       {isOpen && (
         <div className="popupSheet" onClick={handleClose}>
-          <div className="popupSheetDiv" onClick={(e) => e.stopPropagation()}>
+          <div className="popupSheetDiv" onClick={handleClose}>
             <button onClick={handleClose} aria-label="Close image">
               &times;
             </button>
@@ -55,7 +59,8 @@ export default function Gallery() {
     <div className="pageBase">
       <div className="blogSheet">
         <BlogHeader header={message} belowHeader={message2} />
-        <ImageZoom src={testImage} alt={alt} />
+        <ImageZoom src={testImage} alt={alt} description={description} />
+        <ImageZoom src={image2} alt={alt2} description={description2} />
       </div>
     </div>
   );

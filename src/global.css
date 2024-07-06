@@ -82,15 +82,21 @@
 	}
 	.popupSheet {
 		@apply
-		fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-65;
+		fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-65
+		overflow-auto;
 	}
 	.popupSheetDiv {
 		@apply
-		se:max-w-[70vw] max-h-full
-		relative transition-transform duration-300 transform scale-95;
+		se:max-w-[70vw] se:max-h-[70vh]
+		m-auto
+		relative transition-transform duration-1000 transform scale-95
+		flex flex-col 
+		justify-center items-center;
 	}
 	.popupSheetDiv img {
-		@apply w-full
+		@apply 
+		max-w-full max-h-[80vh]
+		/* max-h-[500px] max-w-full; */
 	}
 	.popupSheetDiv button {
 		@apply
