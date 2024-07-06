@@ -29,7 +29,7 @@
 		@apply w-full 
 		se:w-[70%] 
 		se:max-w-[800px] se:min-w-[500px]
-		min-h-[100vh] se:min-h-[95vh]
+		min-h-[100vh] se:min-h-[94vh]
 		se:my-[2.5vh]
 		py-10 se:px-20 px-5 m-auto
 		bg-gray-100 dark:bg-[#323232]
@@ -61,27 +61,49 @@
 		text-opacity-70
 		text-center;
 	}
-	.imageContainer {
+	.galleryImage {
 		@apply 
 		my-2
 		flex flex-col 
 		justify-center items-center;
 	}
-	.imageContainer img {
-		@apply
+	.galleryImage img {
+		@apply 
+		cursor-pointer transition-transform transform hover:scale-[1.01]
+		rounded-md
 		max-h-[150px]
 		se:max-h-[200px]
-		my-2
-		rounded-md;
+		my-2;
 	}
-	.imageContainerPicText {
+	.galleryImage p {
 		@apply text-gray-500
 		text-sm
 		opacity-80;
 	}
-	.imageContainerDescription  {
-		@apply text-gray-300
+	.popupSheet {
+		@apply
+		fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-65;
+	}
+	.popupSheetDiv {
+		@apply
+		se:max-w-[70vw] max-h-full
+		relative transition-transform duration-300 transform scale-95;
+	}
+	.popupSheetDiv img {
+		@apply w-full
+	}
+	.popupSheetDiv button {
+		@apply
+		absolute top-0 right-0 m-4 text-black;
+	}
+	.popupSheetDiv p  {
+		@apply 
+		relative
+		text-gray-300
 		text-lg
 		opacity-100;
+	}
+	.no-scroll {
+		overflow: hidden;
 	}
 }
