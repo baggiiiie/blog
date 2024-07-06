@@ -31,10 +31,11 @@
 		se:p-1;
 	}
 	.blogSheet {
-		@apply w-full h-[100vh]
-		se:w-[70%] se:min-h-[90vh]
+		@apply w-full 
+		se:w-[70%] 
 		se:max-w-[800px] se:min-w-[500px]
-		se:max-h-[95vh] se:my-[2.5vh]
+		min-h-[100vh] se:min-h-[95vh]
+		se:my-[2.5vh]
 		py-10 se:px-20 px-5 m-auto
 		bg-gray-100 dark:bg-[#323232]
 		se:shadow-[0px_0px_2vh_0px_rgba(55,55,55,0.2)]
