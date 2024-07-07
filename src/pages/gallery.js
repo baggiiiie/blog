@@ -10,6 +10,11 @@ const image2 = "pics/we_dance.png";
 const alt2 = "Who doesn't love a good time like this";
 const description2 = "But it ain't gonna be the same";
 
+const image3 = "pics/life_view.jpg";
+const alt3 = "philosophy sunday - July 7, 24";
+const description3 =
+  "wrote this down in the morning. was reading Designing Your Life. coincidentally watched this video just now, found this sentence completely mesmerizing: 'you are the universe attempting to figure itself out, don't end it because you got confused.' https://youtu.be/35s4-3T5dJY?si=r-4nwy8sWi6IPA20&t=327";
+
 const ImageZoom = ({ src, alt, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -61,6 +66,7 @@ export default function Gallery() {
         <BlogHeader header={message} belowHeader={message2} />
         <ImageZoom src={testImage} alt={alt} description={description} />
         <ImageZoom src={image2} alt={alt2} description={description2} />
+        <ImageZoom src={image3} alt={alt3} description={description3} />
       </div>
     </div>
   );
