@@ -53,7 +53,7 @@ const ImageZoom = ({ src, alt, description }) => {
 
 export default function Gallery() {
   const message = "Gallery";
-  const message2 = "some of my dump pics";
+  const message2 = "some of my dumb pics";
 
   return (
     <div className="pageBase">
