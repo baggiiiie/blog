@@ -1,5 +1,5 @@
 ---
-title: "I Unmute You"
+title: "I Unmuted You"
 date: "2024-07-20"
 ---
 
@@ -7,7 +7,7 @@ Speaking of this, I muted you. Definitely not because I hate you.
 
 It's mainly because I mute most faces that I don't see on a regular basis, and I kinda wanna just treat you like one of them, 'cause you are one of them by this criterion. Perhaps also becasue you symbolize too much of my painful history that I have not yet learned how to accept. And perhaps I empower your stories too much and am scared to see them popping up in my feed, because 3 seconds of that would have the potential to fuck up my day, days, or weeks.  
 
-These are probably why I muted you, but it has not done any good. The intention was to not having to see you unexpectedly, and just, normalize your existence. But that didn't really happen. Muting you merely adds the friction of typing your initials in the search bar, the behavior of which could backfire and become addictive, making it more uneasy on the mind. I guess addictive is the right word. It's endowed with a gambling-like characteristic, pretty much a one-arm bandit. The difference is I don't know what I'm even looking for to begin with.  
+These are probably why I muted you, but it has not done any good. The intention was to not having to see you unexpectedly, and just, normalize your existence. But that didn't really happen. Muting you merely adds another step of typing your initials in the search bar, the behavior of which could backfire and become addictive, making it more uneasy on the mind. I guess addictive is the right word. It's endowed with a gambling-like characteristic, pretty much a one-arm bandit. The difference is I don't know what I'm even looking for to begin with.  
 
 I guess, I muted you so I can passively avoid you, but how could I passively avoid you when I’m also actively seeking.  
 
@@ -31,7 +31,9 @@ I do aware that it's not a common experience, it's not common for the majority t
 I'm not blaming or being condescending though. My experience has set me apart from the majority. Before I could find the balance, I had made myself basically incomprehensible. If anything, I blame myself for it, and for not realizing it or even indulging in it.  
 
 
+And I unmuted you last night. I do not enjoy the extra step of typing. It amplifies everything and makes what could be a part of doom scrolling a conscious decision. I do not enjoy making that decision. It's unnecessary and achieves the opposite of normalizing your existence. I shot myself in the foot. So, before you become one of them, if you ever will, I unmuted you, letting you be.  
 
-At the end of the day, you're just part of my life long journey. That dark period was painful but beautiful nonetheless. And getting to know you was all that, too. At the end of the day, I still think you're a friend. Or you could be a friend, 'cause we were never really friends, I guess. I care enough to mute and unmute, and enough to wanna know how are you doing, what's your plan, do you love your job, and what are we getting for our next dinner. How you like your morning coffee remains unknown and I've grown to be fine with it.  
+
+At the end of the day, you're just part of my life long journey. That dark period was painful but beautiful nonetheless. And getting to know you was all that, too. At the end of the day, I still think you're a friend, or you could be a friend. We were never really friends, I guess. I value this experience enough to mute and unmute, and enough to wanna know how are you doing, what's your plan, do you love your job, and what are we getting for our next dinner. How you like your morning coffee remains unknown and I've grown to be fine with it.  
 
 
