@@ -2,7 +2,7 @@
 title: "i wanna get a tattoo"
 date: "2024-10-03"
 ---
-### 3 Oct
+
 I wanna get a tattoo.   
 
 When this kinda things happen, I wanna get a tattoo, to remember whatever that's happening. Not a crazy tat, not some aesthetic graphics, maybe just a simple handwriting-style one, the design doesn't matter to me.    
