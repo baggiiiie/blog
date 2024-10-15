@@ -1,7 +1,7 @@
 # blog
-visit here: blog.yingchaoooo.me
+visit here: ~~blog.yingchaoooo.me~~ it's .com now bij  
 
-*yes dot me is lame i agree*
+~~*yes dot me is lame i agree*~~ not anymore  
 
 
 ---
